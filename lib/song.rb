@@ -34,7 +34,7 @@ class Song
     @@genres.each do |g|
       genre_hash[g] += 1
     end
-    return genre_hash
+    genre_hash
   end
 
 end
